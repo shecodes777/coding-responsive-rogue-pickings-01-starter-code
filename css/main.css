@@ -165,3 +165,57 @@ footer span {
   color: #45610e;
   font-size: 0.875rem;
 }
+
+/* TABLET */
+@media all and (min-width: 768px) .bottom-section, content-wrapper {
+  justify-content: space-evenly;
+}
+
+.section-one {
+  width: 30%;
+}
+
+.section-two {
+  width: 40%;
+  border-left: 5px solid #eee;
+  border-right: 5px solid #eee;
+  padding: 0 30px;
+  border-top: none;
+  border-bottom: none;
+}
+
+.section-three {
+  width: 30%;
+}
+
+.bottom-section {
+}
+
+/* DESKTOP */
+@media all and (min-width: 1200px);
+
+body {
+  font-size: 1em;
+}
+
+header h1 {
+  width: 30%;
+  padding: 0;
+  border-bottom: none;
+  text-align: left;
+}
+
+header nav {
+  width: 21%;
+}
+
+header .content-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header nav ul a {
+  display: flex;
+  justify-content: space-between;
+}
